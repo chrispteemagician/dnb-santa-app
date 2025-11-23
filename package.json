@@ -5,6 +5,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+        "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-tooltip": "^1.2.8",
     "class-variance-authority": "^0.7.1",
