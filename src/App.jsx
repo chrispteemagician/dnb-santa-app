@@ -20,7 +20,6 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Create mailto link with form data
     const subject = `DnB Santa Video Request for ${formData.childName}`
     const body = `
 Child's Name: ${formData.childName}
@@ -59,7 +58,7 @@ Parent Email: ${formData.parentEmail}
           onError={(e) => { e.target.style.display = 'none' }}
         />
         <h1 style={{ fontSize: '2.5rem', margin: '0 0 10px 0' }}>
-          \uD83C\uDF85 DnB Santa \uD83C\uDFB5
+          🎅 DnB Santa 🎵
         </h1>
         <p style={{ fontSize: '1.3rem', margin: '0 0 10px 0', color: '#ffeb3b' }}>
           "Every Child Deserves a Magical Christmas Message"
@@ -75,7 +74,7 @@ Parent Email: ${formData.parentEmail}
         textAlign: 'center',
         backgroundColor: '#fafafa'
       }}>
-        <h2 style={{ marginBottom: '20px' }}>See the Magic in Action \uD83C\uDFA5</h2>
+        <h2 style={{ marginBottom: '20px' }}>See the Magic in Action 🎥</h2>
         <div style={{
           maxWidth: '640px',
           margin: '0 auto',
@@ -105,7 +104,7 @@ Parent Email: ${formData.parentEmail}
         margin: '0 auto'
       }}>
         <h2 style={{ textAlign: 'center', marginBottom: '30px' }}>
-          \uD83C\uDF81 Request Your Free Video
+          🎁 Request Your Free Video
         </h2>
         
         {submitted ? (
@@ -116,7 +115,7 @@ Parent Email: ${formData.parentEmail}
             borderRadius: '10px',
             border: '2px solid #4caf50'
           }}>
-            <h3 style={{ color: '#2e7d32' }}>\u2705 Request Received!</h3>
+            <h3 style={{ color: '#2e7d32' }}>✅ Request Received!</h3>
             <p>Your email app should have opened with your request details.</p>
             <p>DnB Santa will get back to you within 3-7 days!</p>
             <button
@@ -285,7 +284,7 @@ Parent Email: ${formData.parentEmail}
               onMouseOver={(e) => e.target.style.backgroundColor = '#a01830'}
               onMouseOut={(e) => e.target.style.backgroundColor = '#c41e3a'}
             >
-              \uD83C\uDF81 Request Free Video
+              🎁 Request Free Video
             </button>
           </form>
         )}
@@ -297,7 +296,7 @@ Parent Email: ${formData.parentEmail}
         backgroundColor: '#fff3e0',
         textAlign: 'center'
       }}>
-        <h2>What is DnB Santa? \uD83C\uDF85</h2>
+        <h2>What is DnB Santa? 🎅</h2>
         <div style={{ maxWidth: '700px', margin: '0 auto', textAlign: 'left', lineHeight: '1.8' }}>
           <p>
             DnB Santa is a <strong>completely FREE</strong> service offering personalized Christmas video 
@@ -319,7 +318,7 @@ Parent Email: ${formData.parentEmail}
         textAlign: 'center'
       }}>
         <p style={{ fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-          \u2615 Please Consider Buying Me a Coffee ONLY if You Can Afford to. 
+          ☕ Please Consider Buying Me a Coffee ONLY if You Can Afford to. 
           Otherwise Share and Pay it Forward. You have a Magical Christmas, Love from DnB Santa xx
         </p>
         <div style={{ marginTop: '20px', display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
@@ -336,7 +335,7 @@ Parent Email: ${formData.parentEmail}
               fontWeight: 'bold'
             }}
           >
-            \u2615 Buy Me a Coffee
+            ☕ Buy Me a Coffee
           </a>
           <a 
             href="https://www.ko-fi.com/zoom" 
@@ -351,7 +350,7 @@ Parent Email: ${formData.parentEmail}
               fontWeight: 'bold'
             }}
           >
-            \u2764\uFE0F Ko-fi
+            ❤️ Ko-fi
           </a>
         </div>
       </div>
@@ -363,7 +362,7 @@ Parent Email: ${formData.parentEmail}
         color: 'white',
         textAlign: 'center'
       }}>
-        <p>\u00A9 2025 DnB Santa | Created with \u2764\uFE0F by Chris P Tee</p>
+        <p>© 2025 DnB Santa | Created with ❤️ by Chris P Tee</p>
         <p style={{ marginTop: '10px' }}>
           <a href="mailto:chris@chrisptee.co.uk" style={{ color: '#ffeb3b' }}>chris@chrisptee.co.uk</a>
         </p>
